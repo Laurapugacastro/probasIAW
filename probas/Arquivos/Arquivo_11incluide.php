@@ -1,0 +1,4 @@
+<?php
+ $numpeque=5
+
+?>
