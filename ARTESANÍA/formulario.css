@@ -1,0 +1,32 @@
+body {
+	font: 12px Arial;
+	position: relative;
+	background-image: url(../imagenes/arte.jpg);
+}
+h1{
+	color:rgb(112, 83, 8);
+	text-align: center;
+	text-decoration:underline;
+	font-family:cursive;
+	font-size: 30px;
+}
+div{
+	text-align: center;
+}
+input{
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+textarea{
+	font-size: 14px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form {
+	padding-bottom: 15px;
+	
+}
+a{
+	font-size: 14px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

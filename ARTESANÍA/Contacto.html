@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href="estiloscontacto.css" rel="stylesheet" type="text/css"/> 
+		<title>Contacto </title>
+		<body>
+			<h1>Contacta con nosotros </h1>
+			<br/>
+			<form  method="post" enctype="multipart/form-data">
+				<!-- agrupamiento de datos personales-->
+				
+				<fieldset>
+					<legend>Datos personales</legend>
+						<label for="Nombre">Nombre:</label>
+						<input type="text" name="nombre" id="Nombre"/>
+						<br/>
+						<label for="Direccion">Dirección:</label>
+						<input type="text" name="direccion" size="40" id="Direccion"/><br/> 
+						<label for="Telefono">Teléfono:</label>
+						<input type="text" name="telefono" size="10" id="Telefono"/><br/> 
+						<label for="Provincia">Provincia:</label>
+						<select name="provincia" id="provincia">
+							<option value="AC">A Coruña</option>
+							<option value="L">Lugo</option>
+							<option value="O">Ourense</option>
+							<option value="P" selected="selected">Pontevedra</option>
+						</select>
+						<label for="CP">Codigo Postal:</label>
+						<input type="text" name="CP" size="5" maxlength="5" id="CP"/>
+						<br/>	
+					</fieldset>
+					
+					Indique el motivo del contacto
+					</br>
+					<label for=" Indique el motivo del contacto"></label>
+					<textarea name="motivo" id="motivo" rows="6" cols="40"></textarea>
+					<br/>
+
+					<input type="reset" name="limpiar"/>
+					<input type="submit">
+			<p><a href="index.html">Volver al indice</a></p>		
+			
+		</body>
+	</html>
+			

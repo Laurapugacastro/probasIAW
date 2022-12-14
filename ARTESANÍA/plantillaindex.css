@@ -1,0 +1,81 @@
+
+html {
+	overflow-y: scroll; 
+}
+
+header{
+  display:flexbox;
+}
+body {
+   background-image: url(./imagenes/arte.jpg);
+}
+h1 {
+   font-family:cursive; 
+  text-align:center;
+  font-size: 50px;
+  margin: 0;
+  color: #49b675;
+text-shadow:1px 1px 1px #000; 
+}
+h3 {
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #734838;
+ 
+}	
+main {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+div {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+img{
+  height: 350px;; 
+  width: 350px;;
+}
+
+p{
+  font-family: cursive;
+  font-size: 25px;
+}
+ a {
+  color:black;
+ font-family:cursive;
+ font-size: 20px;
+ text-align: center;
+ display: block;
+}
+
+*{margin:auto; padding-top:6;box-sizing:border-box;font-size:20;}
+            
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:25px;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+    } 
+	
+    nav li{
+    display:inline-block;
+    width:15%;
+   padding-top:9px;
+    background-color:#a05000;
+    border:1px solid #a05000;
+    text-align:center;
+    color:#fff;
+    }
+    nav li:hover{
+    background-color:#fff;
+    color:#000;
+    }
+	

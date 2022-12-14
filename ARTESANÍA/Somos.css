@@ -1,0 +1,97 @@
+
+html {
+	overflow-y: scroll; 
+}
+
+body {
+   background-image: url(./imagenes/arte.jpg);
+  font-family: 'Titillium Web', sans-serif;
+}
+h1 {
+   font-family:cursive; 
+  text-align:center;
+  font-size: 50px;
+  margin: 0;
+  color: #49b675;
+text-shadow:1px 1px 1px #000; 
+}	
+
+
+
+p {
+	font-family:cursive;
+	font-size:50px;
+	text-align:center;
+  font-size: 30px;
+  margin: 0;
+}
+
+.caja {
+    display: table-cell;
+    padding-left: 30px;
+}
+
+.caja:nth-child(1) h2 {
+  font-family: cursive;
+  background:#a05000;
+  text-align: center;
+  border:1px solid #a05000;
+  text-decoration-line: underline;
+  border-radius: 7px;
+  margin-left: 25px;
+}
+.caja:nth-child(2) h2 {
+  font-family: cursive;
+  background:#a05000;
+  text-align: center;
+  border:1px solid #a05000;
+  text-decoration-line: underline;
+  border-radius: 7px;
+  margin-left: 25px;
+}
+.caja:nth-child(3) h2 {
+  font-family: cursive;
+  background:#a05000;
+  text-align: center;
+  border:1px solid #a05000;
+  text-decoration-line: underline;
+  border-radius: 7px;
+  margin-left: 40px;
+}
+.caja:nth-child(4) h2 {
+  font-family: cursive;
+  background:#a05000;
+  text-align: center;
+  border:1px solid #a05000;
+  text-decoration-line: underline;
+  border-radius: 7px;
+  margin-left: 25px;
+}
+.caja:nth-child(5) h2 {
+  font-family: cursive;
+  background:#a05000;
+  text-align: center;
+  border:1px solid #a05000;
+  text-decoration-line: underline;
+  border-radius: 7px;
+  margin-left: 25px;
+}
+
+li{
+  line-height: 30px;
+}
+
+ a {
+  color:black;
+ font-family:cursive;
+ font-size: 20px;
+ display: block;
+}
+#inicio {
+    color:black;
+   font-family:cursive;
+   font-size: 20px;
+   text-align: center;
+   display: block;
+  }
+

@@ -1,0 +1,49 @@
+html {
+	overflow-y: scroll; 
+}
+
+body {
+   background-image: url(./imagenes/arte.jpg);
+  font-family: 'Titillium Web', sans-serif;
+}
+h1 {
+   font-family:cursive; 
+  text-align:center;
+  font-size: 50px;
+  margin: 0;
+  color: #49b675;
+text-shadow:1px 1px 1px #000; 
+}
+
+h2 {
+    font-family: cursive;
+    text-decoration-line: underline;
+    margin-left: 9px;
+    background-color:#13e6e6;
+    border:1px solid #a76209;
+    border-radius: 7px;
+    padding-left: 10px;
+}
+
+h2.a1 {
+    margin-right: 1030px;
+}
+
+h2.a2 {
+    margin-right: 930px;
+}
+
+p {
+    font-family:cursive;
+	font-size:20px;
+}
+
+a {
+    color:black;
+   font-family:cursive;
+   font-size: 20px;
+  }
+
+a:hover {
+    color: rgb(25, 11, 224);
+}
